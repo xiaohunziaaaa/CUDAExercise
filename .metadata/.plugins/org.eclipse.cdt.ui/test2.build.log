@@ -1,0 +1,39 @@
+22:51:06 **** Build of configuration Debug for project test2 ****
+make all 
+Building file: ../a.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a.d" -MT"a.d" -o "a.o" "../a.cpp"
+In file included from ../a.h:1:0,
+                 from ../a.cpp:1:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../a.cpp: In function ‘int funca()’:
+../a.cpp:6:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:0:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.cpp
+ 
+Building target: test2
+Invoking: GCC C++ Linker
+g++  -o "test2"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: multiple definition of `func()'
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test2] Error 1
+makefile:44: recipe for target 'test2' failed
+
+22:51:06 Build Finished (took 214ms)
+

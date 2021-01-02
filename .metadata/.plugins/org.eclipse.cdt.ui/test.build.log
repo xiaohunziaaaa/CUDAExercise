@@ -1,0 +1,26 @@
+22:39:52 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../a.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "a.d" "../a.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "a.o" "../a.cpp"
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "main.d" "../main.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -link -o  "test"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:6: multiple definition of `func()'
+makefile:58: recipe for target 'test' failed
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:6: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+
+22:39:52 Build Finished (took 284ms)
+

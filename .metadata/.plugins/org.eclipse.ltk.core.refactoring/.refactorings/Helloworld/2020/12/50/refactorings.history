@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Helloworld/src/dataExchange_CPU_GPU.cu&apos; to &apos;dataExchange_CPU_GPU.cpp&apos;" description="Rename resource &apos;dataExchange_CPU_GPU.cu&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dataExchange_CPU_GPU.cu" name="dataExchange_CPU_GPU.cpp" stamp="1607426473304" updateReferences="true"/>
+</session>

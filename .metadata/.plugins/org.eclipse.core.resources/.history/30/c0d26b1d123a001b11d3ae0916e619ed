@@ -1,0 +1,48 @@
+ #include <cuda.h>
+#include <cuda_runtime.h>
+#include <stdio.h>
+#include "cudaInit.h"
+
+__global__ void gpuAdd_scaler(int* d_a, int* d_b, int* d_c){
+	*d_c = *d_a + *d_b;
+}
+
+int gpuAdd_scaler(int h_a, int h_b){
+	printf("Start!");
+	cudaInfo();
+
+
+	h_a = 1;
+	h_b = 2;
+
+	int h_c;
+
+	int *d_a, *d_b, *d_c;
+
+
+
+	//allocate memory for variables in gpu
+	cudaMalloc((void**)&d_a, sizeof(int));
+	cudaMalloc((void**)&d_b, sizeof(int));
+	cudaMalloc((void**)&d_c, sizeof(int));
+
+	//memory copy: from cpu to gpu
+	cudaMemcpy(d_a,&h_a,sizeof(int),cudaMemcpyHostToDevice);
+	cudaMemcpy(d_b,&h_b,sizeof(int),cudaMemcpyHostToDevice);
+
+	//call kernel
+	gpuAdd_scaler<<<1,1>>>(d_a,d_b,d_c);
+
+	//memory copy: from gpu to cpu
+	cudaMemcpy(&h_c,d_c,sizeof(int),cudaMemcpyDeviceToHost);
+
+	printf("Passing paramerter by reference output:%d + %d =%d", h_a,h_b,h_c);
+
+	//free memory
+	cudaFree(d_a);
+	cudaFree(d_b);
+	cudaFree(d_c);
+
+	return h_c;
+
+}

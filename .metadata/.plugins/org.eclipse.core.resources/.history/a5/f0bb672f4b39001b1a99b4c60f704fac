@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <cuda_runtime.h>
+#include <cuda.h>
+
+void cudaInfo();
+
+void cudaInfo(){
+	//print cuda device info
+	int devCount, devID;
+	cudaError_t errorDevCount = cudaDeviceCount(&devCount);
+	if(!cudaError_t){
+		printf("Error when enumerate device!");
+	}
+
+	cudaError_t errorDevGet = cudaDeviceGet(&DevID);
+	if(!errorDevGet){
+		printf("Error when get current device!");
+	}
+
+	cudaDeviceProp prop;
+	cudaError_t errorDevProp =
+}

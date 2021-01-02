@@ -1,0 +1,1617 @@
+19:26:41 **** Clean-only build of configuration Debug for project HeaderTest ****
+make clean 
+rm -rf  ./src/test.o  ./src/test.d  HeaderTest
+ 
+19:58:57 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(10): error: identifier "cudaDeviceCount" is undefined
+
+../src/cudaInit.h(11): error: type name is not allowed
+
+../src/cudaInit.h(18): error: identifier "cudaDeviceGet" is undefined
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): error: identifier "dudaMemcpyDeviceToHost" is undefined
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+4 errors detected in the compilation of "/tmp/tmpxft_00001b7e_00000000-6_add.cpp1.ii".
+make: *** [src/add.o] Error 1
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+19:59:10 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(10): error: identifier "cudaDeviceCount" is undefined
+
+../src/cudaInit.h(11): error: type name is not allowed
+
+../src/cudaInit.h(18): error: identifier "cudaDeviceGet" is undefined
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): error: identifier "dudaMemcpyDeviceToHost" is undefined
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+4 errors detected in the compilation of "/tmp/tmpxft_00001bd9_00000000-6_add.cpp1.ii".
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+make: *** [src/add.o] Error 1
+19:59:16 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(10): error: identifier "cudaDeviceCount" is undefined
+
+../src/cudaInit.h(11): error: type name is not allowed
+
+../src/cudaInit.h(18): error: identifier "cudaDeviceGet" is undefined
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+3 errors detected in the compilation of "/tmp/tmpxft_00001c2b_00000000-6_add.cpp1.ii".
+make: *** [src/add.o] Error 1
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+20:00:12 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(10): error: identifier "cudaDeviceCount" is undefined
+
+../src/cudaInit.h(11): error: type name is not allowed
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+2 errors detected in the compilation of "/tmp/tmpxft_00001c9c_00000000-6_add.cpp1.ii".
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+make: *** [src/add.o] Error 1
+20:01:13 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(11): error: type name is not allowed
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+1 error detected in the compilation of "/tmp/tmpxft_00001d02_00000000-6_add.cpp1.ii".
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+make: *** [src/add.o] Error 1
+20:01:49 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/cudaInit.h(11): error: identifier "cudaErrorDevCount" is undefined
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+1 error detected in the compilation of "/tmp/tmpxft_00001d64_00000000-6_add.cpp1.ii".
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+make: *** [src/add.o] Error 1
+20:02:04 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:02:06 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:02:48 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(37): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(38): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(55): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(37): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(38): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(55): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:02:56 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:07 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:12 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:58 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:04:23 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(32): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:05:31 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(19): error: identifier "print" is undefined
+
+../src/add.cu(34): warning: variable "h_c" is used before its value is set
+
+1 error detected in the compilation of "/tmp/tmpxft_00002102_00000000-6_add.cpp1.ii".
+make: *** [src/add.o] Error 1
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+20:05:40 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(34): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(14): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(15): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(34): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:06:13 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(16): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(17): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(36): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(16): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(17): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(36): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:06:45 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(17): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(18): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(37): warning: variable "h_c" is used before its value is set
+
+../src/add.cu(17): warning: variable "h_a" is used before its value is set
+
+../src/add.cu(18): warning: variable "h_b" is used before its value is set
+
+../src/add.cu(37): warning: variable "h_c" is used before its value is set
+
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+20:07:14 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:07:33 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:44 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:50 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+../src/add.cu(39): error: operand of "*" must be a pointer
+
+../src/add.cu(39): error: operand of "*" must be a pointer
+
+../src/add.cu(39): error: operand of "*" must be a pointer
+
+3 errors detected in the compilation of "/tmp/tmpxft_00002450_00000000-6_add.cpp1.ii".
+src/subdir.mk:18: recipe for target 'src/add.o' failed
+make: *** [src/add.o] Error 1
+20:10:03 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o   
+Finished building target: Add
+ 
+21:56:38 **** Build of configuration Debug for project Add_test ****
+make all 
+Building file: ../src/Add_test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Add_test.d" "../src/Add_test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Add_test.o" "../src/Add_test.cu"
+Finished building: ../src/Add_test.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add_test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add_test"  ./src/Add_test.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+makefile:59: recipe for target 'Add_test' failed
+./src/Add_test.o:/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add_test] Error 1
+21:57:03 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+./src/add.o:/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/cudaInit.h:7: first defined here
+makefile:59: recipe for target 'Add' failed
+collect2: error: ld returned 1 exit status
+make: *** [Add] Error 1
+22:02:59 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+./src/add.o:/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/cudaInit.h:7: first defined here
+makefile:59: recipe for target 'Add' failed
+collect2: error: ld returned 1 exit status
+make: *** [Add] Error 1
+22:03:53 **** Build of configuration Debug for project Add_test ****
+make all 
+Building file: ../src/Add_test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Add_test.d" "../src/Add_test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Add_test.o" "../src/Add_test.cu"
+Finished building: ../src/Add_test.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add_test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add_test"  ./src/Add_test.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+makefile:59: recipe for target 'Add_test' failed
+./src/Add_test.o:/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add_test] Error 1
+22:05:28 **** Build of configuration Debug for project Add_test ****
+make all 
+Building file: ../src/Add_test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Add_test.d" "../src/Add_test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Add_test.o" "../src/Add_test.cu"
+Finished building: ../src/Add_test.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add_test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add_test"  ./src/Add_test.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+makefile:59: recipe for target 'Add_test' failed
+./src/Add_test.o:/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add_test] Error 1
+22:07:01 **** Build of configuration Debug for project Add_test ****
+make all 
+Building file: ../src/Add_test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Add_test.d" "../src/Add_test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Add_test.o" "../src/Add_test.cu"
+Finished building: ../src/Add_test.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add_test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add_test"  ./src/Add_test.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+makefile:59: recipe for target 'Add_test' failed
+./src/Add_test.o:/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add_test] Error 1
+22:38:24 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../a.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "a.d" "../a.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "a.o" "../a.cpp"
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "main.d" "../main.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -link -o  "test"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:4: multiple definition of `func()'
+makefile:58: recipe for target 'test' failed
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:4: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+22:39:52 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../a.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "a.d" "../a.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "a.o" "../a.cpp"
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0   -odir "." -M -o "main.d" "../main.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -link -o  "test"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:6: multiple definition of `func()'
+makefile:58: recipe for target 'test' failed
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test/Debug/../init.h:6: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+22:44:29 **** Build of configuration Debug for project test2 ****
+make all 
+Building file: ../a.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a.d" -MT"a.d" -o "a.o" "../a.cpp"
+In file included from ../a.h:1:0,
+                 from ../a.cpp:1:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../a.cpp: In function ‘int funca()’:
+../a.cpp:6:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:0:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.cpp
+ 
+Building target: test2
+Invoking: GCC C++ Linker
+g++  -o "test2"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: multiple definition of `func()'
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: first defined here
+collect2: error: ld returned 1 exit status
+makefile:44: recipe for target 'test2' failed
+make: *** [test2] Error 1
+22:51:06 **** Build of configuration Debug for project test2 ****
+make all 
+Building file: ../a.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a.d" -MT"a.d" -o "a.o" "../a.cpp"
+In file included from ../a.h:1:0,
+                 from ../a.cpp:1:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../a.cpp: In function ‘int funca()’:
+../a.cpp:6:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../a.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:0:
+../init.h: In function ‘int func()’:
+../init.h:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.cpp
+ 
+Building target: test2
+Invoking: GCC C++ Linker
+g++  -o "test2"  ./a.o ./main.o   
+./main.o: In function `func()':
+/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: multiple definition of `func()'
+./a.o:/home/ljh/CudaProjects/nsight_workspace/test2/Debug/../init.h:6: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test2] Error 1
+makefile:44: recipe for target 'test2' failed
+20:21:01 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+In file included from ../src/test.cpp:1:0:
+../src/gpuSharedMem.cu: In function ‘void gpu_shared_mem(float*, int)’:
+../src/gpuSharedMem.cu:6:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+src/subdir.mk:40: recipe for target 'src/test.o' failed
+../src/gpuSharedMem.cu:14:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/gpuSharedMem.cu: In function ‘void testGpuShrMem()’:
+../src/gpuSharedMem.cu:44:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/gpuSharedMem.cu:44:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+20:22:00 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+In file included from ../src/test.cpp:1:0:
+../src/gpuSharedMem.cu: In function ‘void gpu_shared_mem(float*, int)’:
+../src/gpuSharedMem.cu:8:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/gpuSharedMem.cu:16:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/gpuSharedMem.cu: In function ‘void testGpuShrMem()’:
+../src/gpuSharedMem.cu:46:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/gpuSharedMem.cu:46:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+src/subdir.mk:40: recipe for target 'src/test.o' failed
+20:37:17 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+In file included from ../src/test.cpp:1:0:
+../src/gpuSharedMem.cu: In function ‘void gpu_shared_mem(float*, int)’:
+../src/gpuSharedMem.cu:9:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/gpuSharedMem.cu:17:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/gpuSharedMem.cu: In function ‘void testGpuShrMem()’:
+../src/gpuSharedMem.cu:47:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/gpuSharedMem.cu:47:37: error: expected primary-expression before ‘>’ token
+src/subdir.mk:40: recipe for target 'src/test.o' failed
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+../src/test.cpp: In function ‘int main()’:
+../src/test.cpp:13:2: error: expected ‘;’ before ‘return’
+  return 0;
+  ^
+make: *** [src/test.o] Error 1
+20:37:34 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+In file included from ../src/test.cpp:1:0:
+../src/gpuSharedMem.cu: In function ‘void gpu_shared_mem(float*, int)’:
+../src/gpuSharedMem.cu:9:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/gpuSharedMem.cu:17:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/gpuSharedMem.cu: In function ‘void testGpuShrMem()’:
+../src/gpuSharedMem.cu:47:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+../src/gpuSharedMem.cu:47:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+20:38:04 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+In file included from ../src/test.cpp:1:0:
+../src/gpuSharedMem.cu: In function ‘void gpu_shared_mem(float*, int)’:
+../src/gpuSharedMem.cu:9:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/gpuSharedMem.cu:17:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/gpuSharedMem.cu: In function ‘void testGpuShrMem()’:
+../src/gpuSharedMem.cu:47:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/gpuSharedMem.cu:47:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:38:25 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_mem(float*, int)’:
+../src/test.cpp:10:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/test.cpp:18:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/test.cpp: In function ‘void testGpuShrMem()’:
+../src/test.cpp:48:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/test.cpp:48:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:39:09 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_mem(float*, int)’:
+../src/test.cpp:10:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/test.cpp:18:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/test.cpp: In function ‘void testGpuShrMem()’:
+../src/test.cpp:48:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/test.cpp:48:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:39:22 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_mem(float*, int)’:
+../src/test.cpp:10:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/test.cpp:18:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/test.cpp: In function ‘void testGpuShrMem()’:
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+../src/test.cpp:48:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/test.cpp:48:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+20:39:41 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_mem(float*, int)’:
+../src/test.cpp:10:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/test.cpp:18:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/test.cpp: In function ‘void testGpuShrMem()’:
+../src/test.cpp:48:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/test.cpp:48:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+20:40:54 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_mem(float*, int)’:
+../src/test.cpp:10:17: error: ‘threadIdx’ was not declared in this scope
+  int threadId = threadIdx.x;
+                 ^
+../src/test.cpp:18:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();
+                ^
+../src/test.cpp: In function ‘void testGpuShrMem()’:
+../src/test.cpp:48:18: error: expected primary-expression before ‘<’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                  ^
+../src/test.cpp:48:37: error: expected primary-expression before ‘>’ token
+  gpu_shared_mem<<<1,size, sizeByte>>>(d_a,size);
+                                     ^
+make: *** [src/test.o] Error 1
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+20:43:08 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:79:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:89:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:119:23: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory << <1, 10 >> >(d_a);
+                       ^
+../src/test.cpp:119:33: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory << <1, 10 >> >(d_a);
+                                 ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:43:24 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:79:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:89:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:119:23: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory << <1, 10 >> >(d_a);
+                       ^
+../src/test.cpp:119:33: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory << <1, 10 >> >(d_a);
+                                 ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:43:35 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:79:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:89:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:119:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:119:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:44:29 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:79:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:89:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:119:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:119:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+make: *** [src/test.o] Error 1
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+20:44:35 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:78:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:88:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:118:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:118:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+src/subdir.mk:36: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:45:51 **** Build of configuration Debug for project EmptyProject ****
+make all 
+make: *** No rule to make target '../src/test.cu', needed by 'src/test.o'.  Stop.
+20:46:01 **** Build of configuration Debug for project EmptyProject ****
+make all 
+make: *** No rule to make target '../src/test.cu', needed by 'src/test.o'.  Stop.
+20:46:13 **** Build of configuration Debug for project EmptyProject ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp:2:1: error: ‘__global__’ does not name a type
+ __global__ void gpu_shared_memory(float *d_a)
+ ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:40:46: error: ‘cudaMalloc’ was not declared in this scope
+  cudaMalloc((void **)&d_a, sizeof(float) * 10);
+                                              ^
+../src/test.cpp:42:59: error: ‘cudaMemcpyHostToDevice’ was not declared in this scope
+  cudaMemcpy((void *)d_a, (void *)h_a, sizeof(float) * 10, cudaMemcpyHostToDevice);
+                                                           ^
+../src/test.cpp:42:81: error: ‘cudaMemcpy’ was not declared in this scope
+src/subdir.mk:18: recipe for target 'src/test.o' failed
+  cudaMemcpy((void *)d_a, (void *)h_a, sizeof(float) * 10, cudaMemcpyHostToDevice);
+                                                                                 ^
+../src/test.cpp:45:2: error: ‘gpu_shared_memory’ was not declared in this scope
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+  ^
+../src/test.cpp:45:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:45:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+../src/test.cpp:47:59: error: ‘cudaMemcpyDeviceToHost’ was not declared in this scope
+  cudaMemcpy((void *)h_a, (void *)d_a, sizeof(float) * 10, cudaMemcpyDeviceToHost);
+                                                           ^
+../src/test.cpp:48:43: error: ‘printf’ was not declared in this scope
+  printf("Use of Shared Memory on GPU:  \n");
+                                           ^
+make: *** [src/test.o] Error 1
+20:46:52 **** Build of configuration Debug for project EmptyProject ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:7:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:17:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:47:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:47:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+src/subdir.mk:18: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+20:47:39 **** Build of configuration Debug for project Benchmark ****
+make all 
+Building file: ../src/Benchmark.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Benchmark.d" "../src/Benchmark.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Benchmark.o" "../src/Benchmark.cu"
+Finished building: ../src/Benchmark.cu
+ 
+Building target: Benchmark
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Benchmark"  ./src/Benchmark.o   
+Finished building target: Benchmark
+ 
+20:47:42 **** Incremental Build of configuration Debug for project Benchmark ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:34 **** Incremental Build of configuration Debug for project Benchmark ****
+make all 
+Building file: ../src/Benchmark.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Benchmark.d" "../src/Benchmark.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/Benchmark.o" "../src/Benchmark.cpp"
+../src/Benchmark.cpp:15:70: error: ‘cudaError_t’ has not been declared
+ static void CheckCudaErrorAux (const char *, unsigned, const char *, cudaError_t);
+                                                                      ^
+../src/Benchmark.cpp:21:1: error: ‘__global__’ does not name a type
+ __global__ void reciprocalKernel(float *data, unsigned vectorSize) {
+ ^
+../src/Benchmark.cpp: In function ‘float* gpuReciprocal(float*, unsigned int)’:
+../src/Benchmark.cpp:35:68: error: ‘cudaMalloc’ was not declared in this scope
+  CUDA_CHECK_RETURN(cudaMalloc((void **)&gpuData, sizeof(float)*size));
+                                                                    ^
+../src/Benchmark.cpp:16:79: note: in definition of macro ‘CUDA_CHECK_RETURN’
+ #define CUDA_CHECK_RETURN(value) CheckCudaErrorAux(__FILE__,__LINE__, #value, value)
+                                                                               ^
+../src/Benchmark.cpp:36:66: error: ‘cudaMemcpyHostToDevice’ was not declared in this scope
+  CUDA_CHECK_RETURN(cudaMemcpy(gpuData, data, sizeof(float)*size, cudaMemcpyHostToDevice));
+                                                                  ^
+../src/Benchmark.cpp:16:79: note: in definition of macro ‘CUDA_CHECK_RETURN’
+ #define CUDA_CHECK_RETURN(value) CheckCudaErrorAux(__FILE__,__LINE__, #value, value)
+                                                                               ^
+../src/Benchmark.cpp:36:88: error: ‘cudaMemcpy’ was not declared in this scope
+src/subdir.mk:18: recipe for target 'src/Benchmark.o' failed
+  CUDA_CHECK_RETURN(cudaMemcpy(gpuData, data, sizeof(float)*size, cudaMemcpyHostToDevice));
+                                                                                        ^
+../src/Benchmark.cpp:16:79: note: in definition of macro ‘CUDA_CHECK_RETURN’
+ #define CUDA_CHECK_RETURN(value) CheckCudaErrorAux(__FILE__,__LINE__, #value, value)
+                                                                               ^
+../src/Benchmark.cpp:40:2: error: ‘reciprocalKernel’ was not declared in this scope
+  reciprocalKernel<<<blockCount, BLOCK_SIZE>>> (gpuData, size);
+  ^
+../src/Benchmark.cpp:40:20: error: expected primary-expression before ‘<’ token
+  reciprocalKernel<<<blockCount, BLOCK_SIZE>>> (gpuData, size);
+                    ^
+../src/Benchmark.cpp:40:45: error: expected primary-expression before ‘>’ token
+  reciprocalKernel<<<blockCount, BLOCK_SIZE>>> (gpuData, size);
+                                             ^
+../src/Benchmark.cpp:42:64: error: ‘cudaMemcpyDeviceToHost’ was not declared in this scope
+  CUDA_CHECK_RETURN(cudaMemcpy(rc, gpuData, sizeof(float)*size, cudaMemcpyDeviceToHost));
+                                                                ^
+../src/Benchmark.cpp:16:79: note: in definition of macro ‘CUDA_CHECK_RETURN’
+ #define CUDA_CHECK_RETURN(value) CheckCudaErrorAux(__FILE__,__LINE__, #value, value)
+                                                                               ^
+../src/Benchmark.cpp:43:36: error: ‘cudaFree’ was not declared in this scope
+  CUDA_CHECK_RETURN(cudaFree(gpuData));
+                                    ^
+../src/Benchmark.cpp:16:79: note: in definition of macro ‘CUDA_CHECK_RETURN’
+ #define CUDA_CHECK_RETURN(value) CheckCudaErrorAux(__FILE__,__LINE__, #value, value)
+                                                                               ^
+../src/Benchmark.cpp: At global scope:
+../src/Benchmark.cpp:88:88: error: ‘cudaError_t’ has not been declared
+ static void CheckCudaErrorAux (const char *file, unsigned line, const char *statement, cudaError_t err)
+                                                                                        ^
+../src/Benchmark.cpp: In function ‘void CheckCudaErrorAux(const char*, unsigned int, const char*, int)’:
+../src/Benchmark.cpp:90:13: error: ‘cudaSuccess’ was not declared in this scope
+  if (err == cudaSuccess)
+             ^
+../src/Benchmark.cpp:92:64: error: ‘cudaGetErrorString’ was not declared in this scope
+  std::cerr << statement<<" returned " << cudaGetErrorString(err) << "("<<err<< ") at "<<file<<":"<<line << std::endl;
+                                                                ^
+make: *** [src/Benchmark.o] Error 1
+20:49:34 **** Build of configuration Debug for project Benchmark ****
+make all 
+make: *** No rule to make target '../src/Benchmark.cpp', needed by 'src/Benchmark.o'.  Stop.
+20:49:47 **** Build of configuration Debug for project Benchmark ****
+make all 
+Building file: ../src/Benchmark.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Benchmark.d" "../src/Benchmark.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Benchmark.o" "../src/Benchmark.cu"
+Finished building: ../src/Benchmark.cu
+ 
+Building target: Benchmark
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Benchmark"  ./src/Benchmark.o   
+Finished building target: Benchmark
+ 
+20:49:49 **** Incremental Build of configuration Debug for project Benchmark ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:17 **** Build of configuration Debug for project Add ****
+make all 
+make: *** No rule to make target '../src/test.cpp', needed by 'src/test.o'.  Stop.
+20:50:30 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/add.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/add.d" "../src/add.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/add.o" "../src/add.cu"
+Finished building: ../src/add.cu
+ 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/test.o" "../src/test.cu"
+Finished building: ../src/test.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+20:50:32 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:10 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/test.o" "../src/test.cu"
+../src/test.cu(13): error: identifier "testGpuShrMem" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_00001e6e_00000000-6_test.cpp1.ii".
+make: *** [src/test.o] Error 1
+src/subdir.mk:24: recipe for target 'src/test.o' failed
+20:53:35 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/test.o" "../src/test.cu"
+Finished building: ../src/test.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+./src/test.o: In function `testGpuShrMem()':
+/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:30: multiple definition of `testGpuShrMem()'
+./src/gpuSharedMem.o:/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:30: first defined here
+./src/test.o: In function `gpu_shared_mem(float*, int)':
+makefile:59: recipe for target 'Add' failed
+/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:7: multiple definition of `gpu_shared_mem(float*, int)'
+./src/gpuSharedMem.o:/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:7: first defined here
+./src/test.o: In function `__device_stub__Z14gpu_shared_memPfi(float*, int)':
+/tmp/tmpxft_00001ec9_00000000-5_test.cudafe1.stub.c:13: multiple definition of `__device_stub__Z14gpu_shared_memPfi(float*, int)'
+./src/gpuSharedMem.o:/tmp/tmpxft_00001e48_00000000-5_gpuSharedMem.cudafe1.stub.c:13: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add] Error 1
+20:53:56 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+../src/gpuSharedMem.cu(30): warning: function "testGpuShrMem" was declared but never referenced
+
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/test.o" "../src/test.cu"
+Finished building: ../src/test.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+./src/test.o: In function `gpu_shared_mem(float*, int)':
+/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:7: multiple definition of `gpu_shared_mem(float*, int)'
+./src/gpuSharedMem.o:/home/ljh/CudaProjects/nsight_workspace/Add/Debug/../src/gpuSharedMem.cu:7: first defined here
+./src/test.o: In function `__device_stub__Z14gpu_shared_memPfi(float*, int)':
+/tmp/tmpxft_00001f74_00000000-5_test.cudafe1.stub.c:13: multiple definition of `__device_stub__Z14gpu_shared_memPfi(float*, int)'
+./src/gpuSharedMem.o:/tmp/tmpxft_00001f4e_00000000-5_gpuSharedMem.cudafe1.stub.c:13: first defined here
+collect2: error: ld returned 1 exit status
+makefile:59: recipe for target 'Add' failed
+make: *** [Add] Error 1
+20:57:56 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+../src/gpuSharedMem.cu(48): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_0000208a_00000000-4_gpuSharedMem.cpp4.ii".
+src/subdir.mk:24: recipe for target 'src/gpuSharedMem.o' failed
+make: *** [src/gpuSharedMem.o] Error 2
+20:58:20 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+../src/gpuSharedMem.cu:1:25: fatal error: gpuShareMem.h: No such file or directory
+compilation terminated.
+make: *** [src/gpuSharedMem.o] Error 1
+src/subdir.mk:24: recipe for target 'src/gpuSharedMem.o' failed
+20:58:38 **** Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building file: ../src/test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/test.o" "../src/test.cu"
+Finished building: ../src/test.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+20:58:40 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:45 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:05:56 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:07:27 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:07:52 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:00 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:46 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:01 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:34 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:36 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:15:28 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:15:46 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:15:58 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:14 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:38 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:16:46 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:21 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:25 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:20:13 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:20:46 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:21:35 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:10 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:15 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:47 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:16 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:21 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:03 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:24 **** Incremental Build of configuration Debug for project Add ****
+make all 
+make: Nothing to be done for 'all'.
+21:26:11 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:26:37 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:27:57 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:28:14 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:28:37 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:32:17 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:32:28 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:32:35 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:32:43 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:33:00 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:33:09 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:33:17 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+21:33:42 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 

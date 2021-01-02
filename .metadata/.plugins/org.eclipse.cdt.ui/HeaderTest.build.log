@@ -1,0 +1,7 @@
+19:26:41 **** Clean-only build of configuration Debug for project HeaderTest ****
+make clean 
+rm -rf  ./src/test.o  ./src/test.d  HeaderTest
+ 
+
+19:26:42 Build Finished (took 157ms)
+

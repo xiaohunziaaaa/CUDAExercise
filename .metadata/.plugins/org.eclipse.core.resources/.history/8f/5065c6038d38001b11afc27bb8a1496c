@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+template<class T>
+inline void getCudaAttribute(T *attr, CUdevice_attribute dev_attr, CUdevice dev){
+
+	CUresult error = cuDeviceGetAttribute(attr, dev_attr,dev);
+	if(CUDA_SUCCESS != error){
+		fprintf(stderr,
+				"cuSafeCallNoSync() Driver API error = %04d from file <%s>, line %i.\n",
+				error, __FILE__, __LINE__);
+		exit(EXIT_FAILURE);
+	}
+}
+
+int main(){
+	CUdevice dev = 0;
+
+}

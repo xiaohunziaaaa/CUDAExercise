@@ -1,0 +1,26 @@
+OBJS = add.o
+CU_SRCS = add.cu
+LIBS :=
+
+
+all:Add
+
+#Tool invocations
+Add:$(OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: NVCC Linker'
+	/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add" $(OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+$(OBJS):$(CU_SRCS) 
+	@echo 'Building file: $<'
+	@echo 'Invoking: NVCC Compiler'
+	/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "$(@:%.o=%.d)" "$<"
+	/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+clean:
+	-$(RM) Add $(OBJS) $(OBJS:%.o=%.d)
+	-@echo ' '

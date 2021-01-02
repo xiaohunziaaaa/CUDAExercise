@@ -1,0 +1,13 @@
+#include <cuda.h>
+#include <cuda_runtime.h>
+#include <stdio.h>
+#include "cudaInit.h"
+
+__global__ void gpuAdd_scaler(int* d_a, int* d_b, int* d_c){
+	*d_c = *d_a + *d_b;
+}
+
+int main(){
+
+
+}

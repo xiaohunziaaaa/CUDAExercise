@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "NVCC",
+            "type": "shell",
+            "command": "/usr/local/cuda-10.1/bin/nvcc",
+            "args": [
+                "--cudart" ,
+                "static",
+                "--relocatable-device-code=false",
+                "-gencode",
+                "arch=compute_75,code=compute_75",
+                "-link", 
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "${file}"
+            ],
+            "options": {
+                "cwd": "/usr/local/cuda-10.1/bin/"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

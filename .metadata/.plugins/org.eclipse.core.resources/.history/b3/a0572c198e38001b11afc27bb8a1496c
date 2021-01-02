@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <cuda.h>
+
+template<class T>
+inline void getCudaAttribute(T *attr, CUdevice_attribute dev_attr, CUdevice dev){
+
+	CUresult error = cuDeviceGetAttribute(attr, dev_attr,dev);
+	if(CUDA_SUCCESS != error){
+		fprintf(stderr,
+				"cuSafeCallNoSync() Driver API error = %04d from file <%s>, line %i.\n",
+				error, __FILE__, __LINE__);
+		exit(EXIT_FAILURE);
+	}
+	exit(EXIT_SUCCESS);
+}
+
+int main(){
+	int dev_count = 0;
+	CUresult = cuDeviceGetCount(&dev_count);
+
+	if(dev_count<=0){
+		fprintf(stderr,
+				"No compute-capable device found!");
+	}
+
+	CUdevice dev = 0;
+	CUresult dev_get = cuDeviceGet(&dev,0);
+
+	int memoryClock;
+	getCudaAttribute<int>(&memoryClock, CU_DEVICE_ATTRIBUTE_MEMORY_CLOCK_RATE,dev);
+
+	fprintf("The meomory clock of dev %d is %d", dev, memoryClock);
+
+	exit(EXIT_SUCCESS);
+
+}

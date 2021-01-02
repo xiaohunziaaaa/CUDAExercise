@@ -1,0 +1,19 @@
+#include "add.h"
+
+
+int main(void){
+	/* scaler add on gpu
+	int h_a = 1;
+	int h_b = 2;
+	int h_c = gpuAdd_scaler(1,2);
+	 */
+
+	int size = 1024;
+	int* h_a = (int*) malloc(size*sizeof(int));
+	int* h_b = (int*) malloc(size*sizeof(int));
+
+	Add_vector(h_a,h_b,size);
+
+	return 0;
+
+}

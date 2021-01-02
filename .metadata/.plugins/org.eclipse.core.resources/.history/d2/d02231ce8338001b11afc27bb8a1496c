@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+__global__ void kernel(){
+	printf("hello jianghui!");
+}
+
+int main(){
+	kernel<<<1,>>>();
+	return 0;
+}
+

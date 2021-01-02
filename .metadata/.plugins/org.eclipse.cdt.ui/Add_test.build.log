@@ -1,0 +1,26 @@
+22:07:01 **** Build of configuration Debug for project Add_test ****
+make all 
+Building file: ../src/Add_test.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/Add_test.d" "../src/Add_test.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/Add_test.o" "../src/Add_test.cu"
+Finished building: ../src/Add_test.cu
+ 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: Add_test
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add_test"  ./src/Add_test.o ./src/test.o   
+./src/test.o: In function `cudaInfo()':
+/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: multiple definition of `cudaInfo()'
+makefile:59: recipe for target 'Add_test' failed
+./src/Add_test.o:/home/ljh/CudaProjects/nsight_workspace/Add_test/Debug/../src/cudaInit.h:7: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Add_test] Error 1
+
+22:07:02 Build Finished (took 609ms)
+

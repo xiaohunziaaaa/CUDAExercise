@@ -1,0 +1,25 @@
+20:46:52 **** Build of configuration Debug for project EmptyProject ****
+make all 
+Building file: ../src/test.cpp
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/test.d" "../src/test.cpp"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile  -x c++ -o  "src/test.o" "../src/test.cpp"
+../src/test.cpp: In function ‘void gpu_shared_memory(float*)’:
+../src/test.cpp:7:17: error: ‘threadIdx’ was not declared in this scope
+  int i, index = threadIdx.x;
+                 ^
+../src/test.cpp:17:16: error: ‘__syncthreads’ was not declared in this scope
+  __syncthreads();    // 确保共享数据写入完成
+                ^
+../src/test.cpp: In function ‘int main(int, char**)’:
+../src/test.cpp:47:22: error: expected primary-expression before ‘<’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                      ^
+../src/test.cpp:47:31: error: expected primary-expression before ‘>’ token
+  gpu_shared_memory <<<1, 10 >>>(d_a);
+                               ^
+src/subdir.mk:18: recipe for target 'src/test.o' failed
+make: *** [src/test.o] Error 1
+
+20:46:52 Build Finished (took 158ms)
+

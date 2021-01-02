@@ -1,0 +1,16 @@
+21:33:42 **** Incremental Build of configuration Debug for project Add ****
+make all 
+Building file: ../src/gpuSharedMem.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 -gencode arch=compute_75,code=sm_75  -odir "src" -M -o "src/gpuSharedMem.d" "../src/gpuSharedMem.cu"
+/usr/local/cuda-10.1/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75  -x cu -o  "src/gpuSharedMem.o" "../src/gpuSharedMem.cu"
+Finished building: ../src/gpuSharedMem.cu
+ 
+Building target: Add
+Invoking: NVCC Linker
+/usr/local/cuda-10.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_75,code=compute_75 -gencode arch=compute_75,code=sm_75 -link -o  "Add"  ./src/add.o ./src/gpuSharedMem.o ./src/test.o   
+Finished building target: Add
+ 
+
+21:33:43 Build Finished (took 571ms)
+
